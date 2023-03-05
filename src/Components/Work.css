@@ -1,0 +1,65 @@
+.work-wrapper {
+    padding: 0 80px;
+    max-width: 1180px;
+    margin-inline: auto;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design {
+    margin-bottom: 50px;
+}
+
+.marketer {
+    margin-bottom: 50px;
+}
+
+.design-img, .product-img {
+    margin-right: 40px;
+}
+
+.card h3 {
+    color: #183B56;
+    font-family: inter;
+    font-weight: 600;
+}
+
+.card h2 {
+    font-family: inter;
+    font-family: 600;
+    font-size: clamp(1rem, 8vw, 1.875rem);
+    color: #183B56;
+    margin-top: 9.5px;
+}
+
+.card p {
+    font-family: inter;
+    color: #577592;
+    margin-top: 16.39px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1053px) {
+    .work-wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .marketer {
+        flex-direction: column-reverse;
+    }
+}

@@ -1,0 +1,27 @@
+.footer-section {
+    /* max-width: 1180px; */
+    width: 100%;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.footer-wrapper {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #b9cde4;
+}
+
+.footer-wrapper .footer-links a {
+    color: #183b56;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: 600;
+    padding: 0 30px;
+}
+
+.footer-wrapper .footer-links a:hover {
+    color: #2294ED;
+    transition: .2s ease-in;
+}

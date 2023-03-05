@@ -1,0 +1,33 @@
+.companies-wrapper {
+    max-width: 1180px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.companies-wrapper h4 {
+    font-family: inter;
+    font-weight: 700;
+    color: #183b56;
+    text-align: center;
+    line-height: 27px;
+}
+
+.companies-logo {
+    margin-top: 20px;
+}
+
+.companies-logo img {
+    padding: 0 30px;
+    max-width: 94.41px;
+    height: auto;
+}
+
+@media screen and (max-width: 1053px) {
+    .companies-wrapper {
+        padding: 0 20px;
+    }
+}
